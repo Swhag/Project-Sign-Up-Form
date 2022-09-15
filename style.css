@@ -89,11 +89,6 @@ body {
   border: 1px solid #62ec83;
 }
 
-/* .input input[type="email"]:invalid {
-  outline: none;
-  border: 1px solid red;
-  color: red;
-} */
 .input {
   display: flex;
   flex-flow: column wrap;
