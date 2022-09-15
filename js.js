@@ -24,11 +24,11 @@ password2.addEventListener("input", () => {
 submitBtn.addEventListener("click", (e) => {
   let message;
   if (password.length <= 8 && c_password.length <= 8) {
-    message = "Password must be 8 characters or longer";
+    message = "* Password must be 8 characters or longer";
     e.preventDefault();
   }
   if (password !== c_password) {
-    message = "Your password must match";
+    message = "* Passwords do not match";
     e.preventDefault();
   }
   errorPrompt.textContent = message;
