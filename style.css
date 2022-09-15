@@ -81,6 +81,7 @@ body {
   background-color: #000000;
   border: 1px solid #757575;
   margin-top: 10px;
+  height: 1.7rem;
 }
 
 .input input:focus {
