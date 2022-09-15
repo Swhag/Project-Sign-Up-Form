@@ -33,7 +33,7 @@ body {
   display: flex;
   flex-direction: row;
 
-  background-color: rgba(0, 0, 0, 0.7);
+  background-color: rgba(0, 0, 0, 0.3);
   position: relative;
   top: 20vh;
   gap: 1vw;
