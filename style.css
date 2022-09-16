@@ -116,7 +116,7 @@ body {
 
 #message {
   color: red;
-  font-size: 13px;
+  font-size: 14px;
 }
 
 #submit_btn {
@@ -196,6 +196,7 @@ a:hover {
   }
 
   .content_right {
+    margin-top: 40px;
     padding-top: 0px;
   }
 
