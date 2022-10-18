@@ -12,23 +12,25 @@ body {
   font-family: "Raleway", sans-serif;
   background: #000000;
   color: var(--text);
+  width: 100vw;
+  height: 100vh;
 }
 
 .content {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  width: 100vw;
-  height: 100vh;
 }
 
 .content_left {
-  background-image: url(/img/omid-armin-GIm5OV5rY0w-unsplash.jpg);
+  /* background-image: url(/img/image2.jpg); */
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   width: 35vw;
-  height: 100vh;
+  height: 80vh;
+  margin: 100px 0px;
+  transition: all 0.5s;
 }
 
 .logo {
@@ -116,7 +118,7 @@ body {
 
 #message {
   color: red;
-  font-size: 14px;
+  font-size: 15px;
 }
 
 #submit_btn {
@@ -186,7 +188,7 @@ a:hover {
   }
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1100px) {
   .content_left {
     width: 100vw;
     height: 35vh;
