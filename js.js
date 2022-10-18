@@ -34,16 +34,16 @@ submitBtn.addEventListener("click", (e) => {
   let c_password = password2.value;
 
   if (firstName.value == "") {
-    message = "* Please enter first name";
+    message = "* Please enter your first name";
     e.preventDefault();
   } else if (lastName.value == "") {
-    message = "* Please enter last name";
+    message = "* Please enter your last name";
     e.preventDefault();
   } else if (email.value == "") {
-    message = "* Please enter email";
+    message = "* Please enter your email";
     e.preventDefault();
   } else if (!/\S+@\S+\.\S+/.test(email.value)) {
-    message = "* invalid email";
+    message = "* Invalid email address";
   } else if (password.length == 0) {
     message = "* Please enter password";
   } else if (password.length <= 8 && c_password.length <= 8) {
