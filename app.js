@@ -62,9 +62,9 @@ const leftImage = document.querySelector(".content_left");
 
 function imageTransition() {
   let currentImage = leftImage.style.backgroundImage;
-  let image1 = `url("/img/image1.jpg")`;
-  let image2 = `url("/img/image2.jpg")`;
-  let image3 = `url("/img/image3.jpg")`;
+  let image1 = `url("img/image1.jpg")`;
+  let image2 = `url("img/image2.jpg")`;
+  let image3 = `url("img/image3.jpg")`;
 
   if (currentImage == image1) {
     leftImage.style.backgroundImage = image2;
