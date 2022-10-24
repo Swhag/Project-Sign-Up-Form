@@ -66,6 +66,8 @@ function imageTransition() {
   let image2 = `url("img/image2.jpg")`;
   let image3 = `url("img/image3.jpg")`;
 
+  leftImage.style.backgroundImage = image1;
+
   if (currentImage == image1) {
     leftImage.style.backgroundImage = image2;
   }
