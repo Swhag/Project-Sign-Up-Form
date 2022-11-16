@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Font Awesome -------------------------------------- -->
+    <link rel="stylesheet"  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./styles/style.css">
+
+    <title><%= htmlWebpackPlugin.options.title %></title>
+
+  </head>
+  <body>
+    <div class="content">
+      <div class="content_left">
+        <div class="logo">
+          <img src="/src/img/rss-4-512.png" alt="logo" class="icon">
+          <h1 class="simplicity">@Simplicity</h1>
+        </div>
+      </div>
+
+      <div class="content_right">
+        <div class="top_text">
+          <p>This is not a real online service! This page uses javascript for client-side form validation!</p>
+          <p>
+            
+          </p>
+          <p>Sign up <em>now</em> to get started.</p>
+          <p>You know you want to.</p>
+        </div>
+        <div class="form_wrap">
+          <p class="form_title">Let's do this!</p>
+          <form action="" method="get" id="form">
+            <div class="input">
+              <label for="first_name">FIRST NAME</label>
+              <input type="text" name="first_name" id="first_name" required/>
+            </div>
+            <div class="input">
+              <label for="last_name">LAST NAME</label>
+              <input type="text" name="last_name" id="last_name" required/>
+            </div>
+            <div class="input">
+              <label for="email">EMAIL</label>
+              <input type="email" name="email" id="email" required/>
+            </div>
+            <div class="input">
+              <label for="phone_number">PHONE NUMBER</label>
+              <input type="tel" name="phone_number" id="phone_number"/>
+            </div>
+            <div class="input">
+              <label for="password">PASSWORD</label>
+              <input type="password" name="password" id="password1" pattern=".{8,}" title="Password must be 8 characters or longer" required/>
+            </div>
+            <div class="input">
+              <label for="password2">CONFIRM PASSWORD</label>
+              <input type="password" name="password2" id="password2" required/>
+            </div>
+          </div>
+          <div class="message"><p id="message"></p></div>
+          <div class="btn_div">
+          <button id="submit_btn">Create Account</button>
+        </div>
+          </form>
+        <div class="txt_div">
+        <p class="bottom_text">
+          Already have an account? <a href="#">Log in</a>
+        </p>
+      </div>
+      </div>
+    </div>
+  </body>
+
+  <!-- JQuery -------------------------------------- -->
+  <script
+    src="https://code.jquery.com/jquery-3.5.0.min.js"
+    integrity="sha256-xNzN2a4ltkB44Mc/Jz3pT4iU1cmeR0FkXs4pru/JxaQ="
+    crossorigin="anonymous"
+  ></script>
+</html>
+

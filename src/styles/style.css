@@ -9,7 +9,7 @@
   box-sizing: border-box;
 }
 body {
-  font-family: "Raleway", sans-serif;
+  font-family: 'Raleway', sans-serif;
   background: #000000;
   color: var(--text);
   width: 100vw;
@@ -24,7 +24,7 @@ body {
 }
 
 .content_left {
-  background-image: url(img/image1.jpg);
+  background-image: url('/src/img/image1.jpg');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -78,9 +78,9 @@ body {
   font-size: 12px;
   display: grid;
   grid-template-areas:
-    "one two"
-    "three four"
-    "five six";
+    'one two'
+    'three four'
+    'five six';
 }
 
 #form div:nth-child(1) {
@@ -174,12 +174,12 @@ a:hover {
     padding: 15px 0px;
     display: grid;
     grid-template-areas:
-      "one"
-      "two"
-      "three"
-      "four"
-      "five"
-      "six";
+      'one'
+      'two'
+      'three'
+      'four'
+      'five'
+      'six';
   }
   .message,
   .btn_div,
@@ -210,12 +210,12 @@ a:hover {
     padding: 15px 0px;
     display: grid;
     grid-template-areas:
-      "one"
-      "two"
-      "three"
-      "four"
-      "five"
-      "six";
+      'one'
+      'two'
+      'three'
+      'four'
+      'five'
+      'six';
   }
   .message,
   .btn_div,
