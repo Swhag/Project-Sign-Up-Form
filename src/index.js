@@ -1,4 +1,4 @@
-import './styles/style.css';
+import './styles/styles.css';
 
 const password1 = document.getElementById('password1');
 const password2 = document.getElementById('password2');
@@ -88,3 +88,5 @@ function imageTransition() {
 setInterval(() => {
   imageTransition();
 }, 10000);
+
+console.log('function works');

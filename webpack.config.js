@@ -11,6 +11,7 @@ module.exports = {
     filename: 'bundle.js',
     clean: true,
   },
+  target: ['web', 'es6'],
   module: {
     rules: [
       {
@@ -38,7 +39,7 @@ module.exports = {
   },
   plugins: [
     new HtmlWebpackPlugin({
-      title: 'Simple To-do list',
+      title: 'Simple Sign in',
       filename: 'index.html',
       template: 'src/template.html',
     }),
