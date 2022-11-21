@@ -39,7 +39,7 @@ module.exports = {
   },
   plugins: [
     new HtmlWebpackPlugin({
-      title: 'Simple Sign in',
+      title: 'Simple Sign Up',
       filename: 'index.html',
       template: 'src/template.html',
     }),
