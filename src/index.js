@@ -1,4 +1,5 @@
 import './styles/styles.css';
+import './modules/img';
 
 const password1 = document.getElementById('password1');
 const password2 = document.getElementById('password2');
@@ -68,9 +69,9 @@ const leftImage = document.querySelector('.content_left');
 
 function imageTransition() {
   const currentImage = leftImage.style.backgroundImage;
-  const image1 = `url("/src/img/image1.jpg")`;
-  const image2 = `url("/src/img/image2.jpg")`;
-  const image3 = `url("/src/img/image3.jpg")`;
+  const image1 = `url("assets/img/image1.jpg")`;
+  const image2 = `url("assets/img/image2.jpg")`;
+  const image3 = `url("assets/img/image3.jpg")`;
 
   leftImage.style.backgroundImage = image1;
 
@@ -87,6 +88,4 @@ function imageTransition() {
 
 setInterval(() => {
   imageTransition();
-}, 10000);
-
-console.log('function works');
+}, 6000);
