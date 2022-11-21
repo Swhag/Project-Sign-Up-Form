@@ -13,7 +13,8 @@
       rel="stylesheet"
     />
 
-    <link rel="stylesheet" href="styles.css">
+    <!-- For IE11 -->
+    <!-- <link rel="stylesheet" href="styles.css"> -->
 
     <title>Simple Sign Up</title>
 
@@ -22,7 +23,7 @@
     <div class="content">
       <div class="content_left">
         <div class="logo">
-          <img src="/src/img/rss-4-512.png" alt="logo" class="icon">
+          <img src="assets/img/rss.png" alt="logo" class="icon">
           <h1 class="simplicity">@Simplicity</h1>
         </div>
       </div>
@@ -57,11 +58,11 @@
             </div>
             <div class="input">
               <label for="password">PASSWORD</label>
-              <input type="password" name="password" id="password1" pattern=".{8,}" title="Password must be 8 characters or longer" required/>
+              <input type="password" name="password" id="password1" pattern=".{8,}" title="Password must be 8 characters or longer" autocomplete="off" required/>
             </div>
             <div class="input">
               <label for="password2">CONFIRM PASSWORD</label>
-              <input type="password" name="password2" id="password2" required/>
+              <input type="password" name="password2" id="password2" autocomplete="off" required/>
             </div>
           </div>
           <div class="message"><p id="message"></p></div>
