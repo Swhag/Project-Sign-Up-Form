@@ -14,4 +14,6 @@
 
 Click Here: [Live Demo](https://swhag.github.io/Simple-Sign-Up-Form/)
 
-![alt text](https://github.com/Swhag/Simple-Sign-Up-Form/blob/main/src/img/sign-up-preview.PNG'App Preview')
+![alt text](https://github.com/Swhag/Simple-Sign-Up-Form/blob/main/src/img/sign-up-preview.PNG 'App Preview')
+
+https://github.com/Swhag/Simple-Sign-Up-Form/blob/main/src/img/sign-up-preview.PNG
