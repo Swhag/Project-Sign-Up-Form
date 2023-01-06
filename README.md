@@ -12,6 +12,6 @@
 - a password complexity requirement (caps / number / length)
 - a password confirmation match
 
-Click Here: [Live Demo](https://swhag.github.io/Simple-Sign-Up-Form/)
+Click Here: [Live Demo](https://swhag.github.io/Simple-Sign-Up-Form/) :point_left:
 
 ![alt text](https://github.com/Swhag/Simple-Sign-Up-Form/blob/main/src/img/sign-up-preview.PNG 'App Preview')
