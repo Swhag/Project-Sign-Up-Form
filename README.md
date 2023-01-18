@@ -7,10 +7,10 @@
 
 ## Form validation checks for:
 
-- first and last name value (value cannot be empty)
-- a valid email address (example@example.com)
-- a password complexity requirement (caps / number / length)
-- a password confirmation match
+- First and Last Name value (value cannot be empty)
+- Valid email address (example@example.com)
+- Password complexity requirement (caps / number / length)
+- Password confirmation match
 
 Click Here: [Live Demo](https://swhag.github.io/Simple-Sign-Up-Form/) :point_left:
 
