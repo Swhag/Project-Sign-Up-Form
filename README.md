@@ -1,4 +1,4 @@
-#Simple Sign-Up Page
+# Simple Sign-Up Page (Small Project)
 
 ## Features
 
