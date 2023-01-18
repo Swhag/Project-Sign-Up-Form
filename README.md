@@ -2,7 +2,7 @@
 
 ## Features
 
-- Uses Javascript for client side validation
+- Uses Javascript and RegEx for client side validation
 - Displays error messages for form validation using DOM
 
 ## Form validation checks for:
